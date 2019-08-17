@@ -97,4 +97,18 @@ template<class T> void SegmentTree<T>::buildTree(std::vector<T> data)
            tree[i] = combine(tree[left(i)], tree[right(i)]);
    }
 }
+
+template<class T> void SegmentTree<T>::update(int idx, T val)
+{
+    int segTreeIdx = (segTreeSize/2) + idx;
+    tree[segTreeIdx] = val;
+    while(parent(segTreeIdx) >= 0)
+    {
+        segTreeIdx = parent(segTreeIdx);
+        tree[segTreeIdx] = combine(left(segTreeIdx), right(segTreeIdx));
+        if(segTreeIdx == 0)
+           break;
+    }
+}
+
 #endif // SEGMENTTREE_H

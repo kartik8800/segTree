@@ -18,4 +18,4 @@ General purpose segment tree library.
    long long product(long long x,long long y){return x*y;}<br>
    SegmentTree < long long > rangeProductQueries(dataVector,1,product);<br>
    
-   
+solution to SPOJ GSS1 using segTree library : https://www.spoj.com/submit/GSS1/id=24256073   

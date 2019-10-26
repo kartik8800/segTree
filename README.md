@@ -19,3 +19,5 @@ General purpose segment tree library.
    SegmentTree < long long > rangeProductQueries(dataVector,1,product);<br>
    
 solution to SPOJ GSS1 using segTree library : https://ideone.com/EFxf6O
+solution to SPOJ KGSS using segTree library : https://ideone.com/fUK5Jz
+

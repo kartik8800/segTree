@@ -18,6 +18,6 @@ General purpose segment tree library.
    long long product(long long x,long long y){return x*y;}<br>
    SegmentTree < long long > rangeProductQueries(dataVector,1,product);<br>
    
-solution to SPOJ GSS1 using segTree library : https://ideone.com/EFxf6O
-solution to SPOJ KGSS using segTree library : https://ideone.com/fUK5Jz
+solution to SPOJ GSS1 using segTree library : https://ideone.com/EFxf6O<br>
+solution to SPOJ KGSS using segTree library : https://ideone.com/fUK5Jz<br>
 
